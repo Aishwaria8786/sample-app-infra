@@ -1,5 +1,5 @@
 image:
-  repository: aishwaria131/sample-app/sample-app
+  repository: aishwaria131/sample-app
   tag: latest
   pullPolicy: IfNotPresent
 
