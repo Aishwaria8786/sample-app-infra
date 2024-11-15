@@ -7,7 +7,7 @@ metadata:
     {{- toYaml .Values.ingress.annotations | nindent 4 }}
 spec:
   rules:
-    - host: {{ .Values.ingress.hosts[0].host }}
+    - host: {{ index .Values.ingress.hosts 0 "host" }}
       http:
         paths:
           - path: /
