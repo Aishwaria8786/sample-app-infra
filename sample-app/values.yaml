@@ -33,3 +33,9 @@ readinessProbe:
   timeoutSeconds: 1
   successThreshold: 1
   failureThreshold: 3
+
+service:
+  type: ClusterIP
+  port: 5000
+  targetPort: 5000
+
